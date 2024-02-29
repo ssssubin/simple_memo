@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Simple memo</title>
+  </head>
+  <body>
+    <form id="memo-form" action="">
+      <!--memo-input을 바라보도록 만듦-->
+      <label for="memo-input">메모를 입력하세요</label>
+      <input
+        type="text"
+        id="memo-input"
+        placeholder="여기에 메모를 입력해주세요"
+        required
+      />
+      <!--submit 타입의 제출하는 버튼-->
+      <button id="memo-submit" type="submit">생성!</button>
+    </form>
+    <!--ul(unordered list)이라는 리스트: ● 가 붙음, ol: 숫자가 붙음-->
+    <ul id="memo-ul"></ul>
+    <script src="app.js"></script>
+  </body>
+</html>
